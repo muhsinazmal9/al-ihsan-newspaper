@@ -1,0 +1,89 @@
+/* linotype custom font */
+/* @font-face {
+    font-family: 'linotype';
+    src: url(../fonts/LinotypeBengali-Light.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'linotype';
+    src: url(../fonts/LinotypeBengali-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'linotype';
+    src: url(../fonts/LinotypeBengali-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'linotype';
+    src: url(../fonts/LinotypeBengali-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'linotype';
+    src: url(../fonts/LinotypeBengali-Black.woff) format("woff");
+    font-weight: 900;
+    font-style: normal;
+} */
+
+
+
+/* commons */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/* commons */
+
+body{
+    font-family: 'Poppins','Solaimanlipi','Scheherazade New', sans-serif;
+    overflow-x: hidden;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.solaiman{
+    font-family: 'Solaimanlipi', sans-serif;
+}
+
+.header_date > p{
+    font-family: 'Solaimanlipi', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.cstm_hdr_btn{
+    background: none;
+    border: none;
+}
+.cstm_hdr_btn:hover{
+    background: whitesmoke;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Solaimanlipi', sans-serif;
+    font-size: 18px;
+    /* font-weight: 700; */
+}
+
+.laqab_bn{
+    font-size: 13.5px;
+    line-height: 24px;
+}
+.laqab_ar{
+    font-size: 15px;
+    line-height: 26px;
+}
+
