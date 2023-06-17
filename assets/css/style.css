@@ -55,6 +55,16 @@ p{
 .solaiman{
     font-family: 'Solaimanlipi', sans-serif;
 }
+.l_green{
+    background: #eefff3;
+}
+.d_green{
+    background: #07420a;
+}
+.t_l_green{
+    color: #eefff3;
+    text-shadow: 0px 0px 3px rgba(0, 255, 255, 0.5);
+}
 
 .header_date > p{
     font-family: 'Solaimanlipi', sans-serif;
